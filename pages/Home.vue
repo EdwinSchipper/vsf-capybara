@@ -61,6 +61,7 @@ import MProductCarousel from 'theme/components/molecules/m-product-carousel';
 import ONewsletter from 'theme/components/organisms/o-newsletter';
 import AImagesGrid from 'theme/components/atoms/a-images-grid';
 import { checkWebpSupport } from 'theme/helpers'
+import NoSSR from 'vue-no-ssr';
 
 import {
   SfHero,
@@ -72,6 +73,7 @@ import {
 export default {
   name: 'Home',
   components: {
+    NoSSR,
     LazyHydrate,
     SfHero,
     SfSection,
